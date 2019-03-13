@@ -1,13 +1,13 @@
 <h1>基于落体碰撞能量损耗过程的乒乓优化算法</h1>
-<h4>Ping-pong Optimization Algorithm</h4>
 <h3>这个算法的核心有两个过程，落体和碰撞（碰到边界或者碰到地面，区别在于后者有能量损耗）。</h3>
-<h4>There are two core procedures, falling and collision(collison on edges and collison on the ground. Energy lose occurs when ping-pong collides on the ground)</h4>
-<h4>落体过程Falling</h4>
+<h4>落体过程</h4>
 <p>xi=xi+vi*dt</p>
 <p>h=h+vh*dt-1/2*g*dt^2</p>
 <p>hv=hv-g*dt</p>
-<h4>碰撞过程Collision</h4>
-<p>边界collision on the edges</p>
-<p></p>
-<p>地面collision on the ground</p>
-<p></p>
+<h4>碰撞过程</h4>
+<p>边界：不考虑边界法向量，碰到就直接反向。</p>
+<p>vi=-vi</p>
+<p>地面：考虑物理碰撞，反弹方向需要考虑法向量；反弹能量有损耗。</p>
+<h4>优化</h4>
+<p>1)变步长，假设4个步长即可回到原高度，以此处理步长dt</p>
+<p>2)碰撞不再考虑法向量，反弹后的方向以45度方向反弹回</p>
