@@ -4,11 +4,11 @@
 <p>There are two core procedures, falling and collision(collison on edges and collison on the ground. Energy lose occurs when ping-pong collides on the ground)</p>
 <p>落体过程Falling</p>
 <p>
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large xi=xi+vi*dt" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large xi&=xi\+vi*dt" style="border:none;">
 </p>
 <p>
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large h=h+vh*dt-1/2*g*dt^2" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large h&=h\+vh*dt-1/2*g*dt^2" style="border:none;">
 </p>
 <p>
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large hv=hv-g*dt" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large hv&=hv-g*dt" style="border:none;">
 </p>
